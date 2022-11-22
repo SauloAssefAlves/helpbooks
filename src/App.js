@@ -1,6 +1,7 @@
 import Header from "./componentes/Header";
 import styled from "styled-components";
 import Pesquisa from "./componentes/Pesquisa";
+import UltimosLancamentos from "./componentes/UltimosLancamentos";
 
 //como utilizar styled copmponents
 //styled.+elementoHTML e as crases "``"
@@ -15,6 +16,7 @@ function App() {
     <AppContainer>
       <Header />
       <Pesquisa />
+      <UltimosLancamentos />
     </AppContainer>
   );
 }
